@@ -63,34 +63,34 @@ window.onload = function () {
         setInterval(changeImage, 5000);
        function changeImage() {   
         var i = Math.floor((Math.random() * 5));
-        document.getElementById("slide1-1").style.backgroundImage = "url('"+backgroundImg11[i]+"'), url('black.jpg')";
+        document.getElementById("slide1-1").style.backgroundImage = "url('"+backgroundImg11[i]+"')";
         document.getElementById("slide1-1").style.transition = "background 2s linear";
 
-        document.getElementById("slide1-2").style.backgroundImage = "url('"+backgroundImg12[i]+"'), url('black.jpg')";
+        document.getElementById("slide1-2").style.backgroundImage = "url('"+backgroundImg12[i]+"')";
         document.getElementById("slide1-2").style.transition = "background 2s linear";
 
-        document.getElementById("slide1-3").style.backgroundImage = "url('"+backgroundImg13[i]+"'), url('black.jpg')";
+        document.getElementById("slide1-3").style.backgroundImage = "url('"+backgroundImg13[i]+"')";
         document.getElementById("slide1-3").style.transition = "background 2s linear";
 
-        document.getElementById("slide1-4").style.backgroundImage = "url('"+backgroundImg14[i]+"'), url('black.jpg')";
+        document.getElementById("slide1-4").style.backgroundImage = "url('"+backgroundImg14[i]+"')";
         document.getElementById("slide1-4").style.transition = "background 2s linear";
 
-        document.getElementById("slide1-5").style.backgroundImage = "url('"+backgroundImg15[i]+"'), url('black.jpg')";
+        document.getElementById("slide1-5").style.backgroundImage = "url('"+backgroundImg15[i]+"')";
         document.getElementById("slide1-5").style.transition = "background 2s linear";
 
-        document.getElementById("slide2-1").style.backgroundImage = "url('"+backgroundImg21[i]+"'), url('black.jpg')";
+        document.getElementById("slide2-1").style.backgroundImage = "url('"+backgroundImg21[i]+"')";
         document.getElementById("slide2-1").style.transition = "background 2s linear";
 
-        document.getElementById("slide2-2").style.backgroundImage = "url('"+backgroundImg22[i]+"'), url('black.jpg')";
+        document.getElementById("slide2-2").style.backgroundImage = "url('"+backgroundImg22[i]+"')";
         document.getElementById("slide2-2").style.transition = "background 2s linear";
 
-        document.getElementById("slide2-3").style.backgroundImage = "url('"+backgroundImg23[i]+"'), url('black.jpg')";
+        document.getElementById("slide2-3").style.backgroundImage = "url('"+backgroundImg23[i]+"')";
         document.getElementById("slide2-3").style.transition = "background 2s linear";
 
-        document.getElementById("slide2-4").style.backgroundImage = "url('"+backgroundImg24[i]+"'), url('black.jpg')";
+        document.getElementById("slide2-4").style.backgroundImage = "url('"+backgroundImg24[i]+"')";
         document.getElementById("slide2-4").style.transition = "background 2s linear";
 
-        document.getElementById("slide2-5").style.backgroundImage = "url('"+backgroundImg25[i]+"'), url('black.jpg')";
+        document.getElementById("slide2-5").style.backgroundImage = "url('"+backgroundImg25[i]+"')";
         document.getElementById("slide2-5").style.transition = "background 2s linear";
 
 

@@ -23,6 +23,7 @@ html,
 body {
 	position: relative;
     height: 100%;
+    background: #000000;
 }
 
 body {
@@ -107,7 +108,7 @@ height: 100%;
 }
 
 #slide1-0{
-	background: url("../image/car1/car14/opimg/car114.jpg"),url("../black.jpg");
+	background: url("../image/car1/car14/opimg/car114.jpg"), #000000;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -166,7 +167,7 @@ height: 100%;
 	margin-left: -35px;
 }
 #slide1-1{
-	background: url("../image/car1/car11/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car1/car11/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -255,31 +256,31 @@ height: 100%;
 }
 
 #slide1-2{
-	background: url("../image/car1/car12/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car1/car12/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide1-3{
-	background: url("../image/car1/car13/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car1/car13/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide1-4{
-	background: url("../image/car1/car14/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car1/car14/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide1-5{
-	background: url("../image/car1/car15/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car1/car15/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide2-0{
-	background: url("../image/car2/car12/opimg/car112.jpg"),url("../black.jpg");
+	background: url("../image/car2/car12/opimg/car112.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -319,31 +320,31 @@ height: 100%;
 	text-align: center;
 }
 #slide2-1{
-	background: url("../image/car2/car11/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car2/car11/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #slide2-2{
-	background: url("../image/car2/car12/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car2/car12/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide2-3{
-	background: url("../image/car2/car13/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car2/car13/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide2-4{
-	background: url("../image/car2/car14/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car2/car14/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #slide2-5{
-	background: url("../image/car2/car15/opimg/car111.jpg"),url("../black.jpg");
+	background: url("../image/car2/car15/opimg/car111.jpg"),#000000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -452,6 +453,9 @@ header a{
 		background-size: contain,cover;
 		background-position: top;
 }
+#slide2-2 h1{
+	margin-top: 20px;
+}
 #slide2-3{
 		background-size: contain,cover;
 		background-position: top;
@@ -460,9 +464,15 @@ header a{
 		background-size: contain,cover;
 		background-position: top;
 }
+#slide2-4 h1{
+	margin-top: -10px;
+}
 #slide2-5{
 		background-size: contain,cover;
 		background-position: top;
+}
+#slide2-5 h1{
+	margin-top: -20px;
 }
 #slide3-0{
 		background-size: contain,cover;
